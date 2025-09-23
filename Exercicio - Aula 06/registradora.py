@@ -1,4 +1,4 @@
-def registradora()-> None:
+def registradora():
     total = 0
     while True:
         codigo=int(input("Escolha o seu produto: "))
