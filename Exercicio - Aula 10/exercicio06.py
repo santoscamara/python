@@ -1,7 +1,7 @@
 def caixa_alta(planeta_anao:set)->set:
     for astro in planeta_anao:
-        print(astro.upper(), end=' - ')
-
+            print(astro.upper(), end=' - ')
+       
 
 
 if __name__ == "__main__":
