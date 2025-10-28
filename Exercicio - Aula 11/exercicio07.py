@@ -9,7 +9,7 @@ class Pessoa:
     
 #classe que herda de pessoa
 class Funcionario(Pessoa):
-    def __init__(self, nome, idade, time, salario):
+    def __init__(self, nome:str, idade:int, time:str, salario:float):
         super().__init__(nome, idade, time)
         self.salario = salario
     #Método para exibir todas as informações
